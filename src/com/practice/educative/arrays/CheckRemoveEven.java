@@ -15,9 +15,7 @@ public class CheckRemoveEven {
         for (int arrayElement : arr ) {
             if(arrayElement %2 == 1 )   removeEvenArray[counter++] = arrayElement;
         }
-        System.out.println(removeEvenArray.toString());
         return  removeEvenArray;
-
     }
 
     public static void main(String[] args) {

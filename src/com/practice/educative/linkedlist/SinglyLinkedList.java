@@ -63,4 +63,42 @@ public class SinglyLinkedList<T> {
         }
         System.out.print(iterator.data.toString()+" -> null");
     }
+
+    boolean searchNode(T data){
+        Node currentNode = headNode;
+        while (currentNode != null) {
+            if (currentNode.data.equals(data))
+                return true; //value found
+            currentNode = currentNode.nextNode;
+        }
+        return false; //value not found
+    }
+
+    public void deleteAtHead() {
+        if(isEmpty())
+            return;
+        headNode = headNode.nextNode;
+        size--;
+    }
+
+    public  void deleteByValue(T data){
+        if(isEmpty())
+            return;
+        Node currentNode = this.headNode;
+        Node prevNode = null; //previous node starts from null
+
+        if(currentNode.data.equals(data)) {
+            //data is at head so delete from head
+            deleteAtHead();
+            return;
+        }
+        while (currentNode != null ){
+            if(currentNode.data.equals(data)){
+                prevNode.nextNode = currentNode.nextNode;
+                return;
+            }
+            prevNode = currentNode;
+            currentNode = currentNode.nextNode;
+        }
+    }
 }

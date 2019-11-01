@@ -4,12 +4,12 @@ public class DoublyLinkedListTest {
     public static void main(String[] args) {
         DoublyLinkedList<Integer> doublyLinkedList = new DoublyLinkedList<Integer>();
         for (int i = 0; i < 1 ; i++) {
-            doublyLinkedList.insertAtHead(i);
+            doublyLinkedList.insertAtEnd(i);
             doublyLinkedList.printList();
-            System.out.println("");
+            System.out.println("yo");
         }
-        doublyLinkedList.deleteByValue(0);
-        System.out.println("Dwe");
+        doublyLinkedList.deleteAtHead();
+        doublyLinkedList.deleteAtTail();
         doublyLinkedList.printList();
 
     }

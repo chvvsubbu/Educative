@@ -1,6 +1,4 @@
-package main.java.graphs;
-
-import main.java.graphs.Graph;
+package main.java.educative.com.practice.graphs;
 
 public class GraphTest {
     public static void main(String[] args) {

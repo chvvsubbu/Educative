@@ -1,4 +1,4 @@
-package main.java.stacksandququeues;
+package main.java.educative.com.practice.stacksandququeues;
 
 public class Stack <V> {
 

@@ -1,4 +1,4 @@
-package main.java.linkedlist;
+package main.java.educative.com.practice.linkedlist;
 
 public class DoublyLinkedListTest {
     public static void main(String[] args) {

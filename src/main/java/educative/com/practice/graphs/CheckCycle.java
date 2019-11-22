@@ -1,4 +1,4 @@
-package main.java.graphs;
+package main.java.educative.com.practice.graphs;
 
 public class CheckCycle {
 

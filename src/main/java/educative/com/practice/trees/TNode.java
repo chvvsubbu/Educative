@@ -1,4 +1,4 @@
-package com.practice.educative.trees;
+package main.java.educative.com.practice.trees;
 
 public class TNode {
     private int data;

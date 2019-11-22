@@ -1,4 +1,4 @@
-package main.java.linkedlist;
+package main.java.educative.com.practice.linkedlist;
 
 import java.util.HashMap;
 import java.util.Map;

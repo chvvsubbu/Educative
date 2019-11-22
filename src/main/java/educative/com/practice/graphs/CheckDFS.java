@@ -1,8 +1,7 @@
-package main.java.graphs;
+package main.java.educative.com.practice.graphs;
 
-import main.java.linkedlist.Node;
-import main.java.stacksandququeues.Queue;
-import main.java.stacksandququeues.Stack;
+import main.java.educative.com.practice.linkedlist.Node;
+import main.java.educative.com.practice.stacksandququeues.Stack;
 
 public class CheckDFS {
 

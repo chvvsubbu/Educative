@@ -1,4 +1,4 @@
-package main.java.trees;
+package main.java.educative.com.practice.trees;
 
 public class BSTTest {
 

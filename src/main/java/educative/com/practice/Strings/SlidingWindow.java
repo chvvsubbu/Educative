@@ -1,4 +1,4 @@
-package com.practice.educative.Strings;
+package main.java.educative.com.practice.Strings;
 
 import java.util.Arrays;
 import java.util.HashMap;

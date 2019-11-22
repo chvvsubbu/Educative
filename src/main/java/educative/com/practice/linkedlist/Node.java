@@ -1,4 +1,4 @@
-package main.java.linkedlist;
+package main.java.educative.com.practice.linkedlist;
 
 public class Node<T> {
     public T data;

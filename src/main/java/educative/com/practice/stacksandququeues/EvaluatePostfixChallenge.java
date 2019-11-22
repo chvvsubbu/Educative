@@ -1,4 +1,6 @@
-package main.java.stacksandququeues;
+package main.java.educative.com.practice.stacksandququeues;
+
+import main.java.educative.stacksandququeues.main;
 
 public class EvaluatePostfixChallenge {
 

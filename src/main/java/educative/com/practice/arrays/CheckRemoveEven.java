@@ -1,4 +1,4 @@
-package main.java.arrays;
+package main.java.educative.com.practice.arrays;
 
 public class CheckRemoveEven {
 
